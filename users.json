@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "firstName": "Tony",
+      "email": "aa",
+      "password": "aaa"
+    },
+    {
+      "firstName": "Steve",
+      "email": "bb",
+      "password": "bbb"
+    },
+    {
+      "firstName": "Peter",
+      "email": "cc",
+      "password": "ccc"
+    },
+    {
+      "firstName": "Natasha",
+      "email": "dd",
+      "password": "ddd"
+    },
+    {
+      "firstName": "Nick",
+      "email": "ee",
+      "password": "eee"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+<h3 class="m-5">Welcome back, {{userFirstName}}</h3>
+{{#if visitAgain}}<h3 class="m-5">Again</h3>{{/if}}
+
+{{!-- log out --}}
+<form action="/logout" method="POST" class="m-5">
+  <button type="submit" class="btn btn-primary m-2" id="Signout">Sign out</button>
+</form>

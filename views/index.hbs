@@ -1,0 +1,22 @@
+<h3 class="mt-5 ms-5">Account Login</h3>
+
+<form action="/login" method="POST" class="ms-5">
+  <input type="text" placeholder="Email" name="email">
+
+  <input type="text" placeholder="Password" name="password">
+
+  <button type="submit" class="btn btn-primary m-2" id="Signin">Sign in</button>
+
+  {{!-- show alert message --}}
+  {{#if needAlert}}
+  <div class="alert alert-warning m-2" role="alert" id="alertMessage">
+    <span>No such "{{email}}" "{{password}}"</span>
+  </div>
+  {{/if}}
+
+</form>
+
+{{!-- show all users --}}
+<form action="/allUsers" method="POST" class="ms-5">
+  <button type="submit" class="btn btn-primary m-2" id="allUsers">show all users</button>
+</form>
